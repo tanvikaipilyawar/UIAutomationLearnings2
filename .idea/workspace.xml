@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c63dad4-4ec2-4f6c-b1b0-2d9a130a7058" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Lab3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Proj1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Proj2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Proj3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,55 +43,15 @@
     "TestNG.Lab1.vwoLogin.executor": "Run",
     "TestNG.Proj1.executor": "Run",
     "TestNG.Proj1.makeApp.executor": "Run",
+    "TestNG.Proj2.executor": "Run",
+    "TestNG.Proj2.testloginPositive.executor": "Run",
+    "TestNG.Proj3.executor": "Run",
+    "TestNG.Proj3.openBrowser1.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Proj1">
-    <configuration name="Lab2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Lab2" />
-      <module name="UIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lab3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Lab3" />
-      <module name="UIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lab1.vwoLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Lab1" />
-      <option name="METHOD_NAME" value="vwoLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Proj3">
     <configuration name="Proj1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UIAutomation" />
       <extension name="coverage">
@@ -109,7 +69,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Proj1.makeApp" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Proj2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +78,60 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Proj1" />
-      <option name="METHOD_NAME" value="makeApp" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Proj2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Proj2.testloginPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Proj2" />
+      <option name="METHOD_NAME" value="testloginPositive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Proj3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Proj3" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Proj3.openBrowser1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Proj3" />
+      <option name="METHOD_NAME" value="openBrowser1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -129,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Proj3" />
+        <item itemvalue="TestNG.Proj3.openBrowser1" />
+        <item itemvalue="TestNG.Proj2" />
+        <item itemvalue="TestNG.Proj2.testloginPositive" />
         <item itemvalue="TestNG.Proj1" />
-        <item itemvalue="TestNG.Proj1.makeApp" />
-        <item itemvalue="Application.Lab3" />
-        <item itemvalue="Application.Lab2" />
-        <item itemvalue="TestNG.Lab1.vwoLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -154,5 +166,25 @@
       <updated>1755341019673</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/Proj2.java</url>
+          <line>17</line>
+          <properties class="org.example.Proj2" method="testloginPositive">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/Proj3.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
