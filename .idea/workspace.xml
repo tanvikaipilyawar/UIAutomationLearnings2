@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c63dad4-4ec2-4f6c-b1b0-2d9a130a7058" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Lab4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,25 +32,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Lab2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab3.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.Lab1.vwoLogin.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Proj1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Proj1.makeApp.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Proj2.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Proj2.testloginPositive.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Proj3.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Proj3.openBrowser1.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Lab2.executor": "Run",
+    "Application.Lab3.executor": "Run",
+    "Application.Proj4.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.Lab1.vwoLogin.executor": "Run",
+    "TestNG.Proj1.executor": "Run",
+    "TestNG.Proj1.makeApp.executor": "Run",
+    "TestNG.Proj2.executor": "Run",
+    "TestNG.Proj2.testloginPositive.executor": "Run",
+    "TestNG.Proj3.executor": "Run",
+    "TestNG.Proj3.openBrowser1.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Proj4">
+}]]></component>
+  <component name="RunManager" selected="Application.Lab4">
+    <configuration name="Lab4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Lab4" />
+      <module name="UIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Proj4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Proj4" />
       <module name="UIAutomation" />
@@ -74,24 +89,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.Proj2" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Proj2.testloginPositive" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Proj2" />
-      <option name="METHOD_NAME" value="testloginPositive" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -135,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lab4" />
         <item itemvalue="Application.Proj4" />
         <item itemvalue="TestNG.Proj3" />
         <item itemvalue="TestNG.Proj3.openBrowser1" />
         <item itemvalue="TestNG.Proj2" />
-        <item itemvalue="TestNG.Proj2.testloginPositive" />
       </list>
     </recent_temporary>
   </component>
