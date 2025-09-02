@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c63dad4-4ec2-4f6c-b1b0-2d9a130a7058" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Lab4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Proj5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Proj6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Proj7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +25,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="TestNG" name="Proj7" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -36,7 +43,9 @@
   "keyToString": {
     "Application.Lab2.executor": "Run",
     "Application.Lab3.executor": "Run",
+    "Application.Lab4.executor": "Run",
     "Application.Proj4.executor": "Run",
+    "Application.Proj5.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -47,11 +56,14 @@
     "TestNG.Proj2.testloginPositive.executor": "Run",
     "TestNG.Proj3.executor": "Run",
     "TestNG.Proj3.openBrowser1.executor": "Run",
+    "TestNG.Proj6.executor": "Run",
+    "TestNG.Proj6.testPositive.executor": "Run",
+    "TestNG.Proj7.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab4">
+  <component name="RunManager" selected="TestNG.Proj7">
     <configuration name="Lab4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Lab4" />
       <module name="UIAutomation" />
@@ -65,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Proj4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Proj4" />
+    <configuration name="Proj5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Proj5" />
       <module name="UIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -78,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Proj2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Proj6" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -87,7 +99,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Proj2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Proj6" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -95,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Proj3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Proj6.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -104,26 +116,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Proj3" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Proj3.openBrowser1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Proj3" />
-      <option name="METHOD_NAME" value="openBrowser1" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Proj6" />
+      <option name="METHOD_NAME" value="testPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Proj7" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Proj7" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -132,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Proj7" />
+        <item itemvalue="TestNG.Proj6" />
+        <item itemvalue="TestNG.Proj6.testPositive" />
+        <item itemvalue="Application.Proj5" />
         <item itemvalue="Application.Lab4" />
-        <item itemvalue="Application.Proj4" />
-        <item itemvalue="TestNG.Proj3" />
-        <item itemvalue="TestNG.Proj3.openBrowser1" />
-        <item itemvalue="TestNG.Proj2" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +181,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/Proj5.java</url>
+          <line>16</line>
+          <properties class="org.example.Proj5" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
