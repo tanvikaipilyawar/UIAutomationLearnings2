@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c63dad4-4ec2-4f6c-b1b0-2d9a130a7058" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Proj5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Proj6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Proj7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Proj8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +22,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="TestNG" name="Proj7" />
-    </enabled-run-configurations>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -59,24 +52,12 @@
     "TestNG.Proj6.executor": "Run",
     "TestNG.Proj6.testPositive.executor": "Run",
     "TestNG.Proj7.executor": "Run",
+    "TestNG.Proj8.testPositive.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Proj7">
-    <configuration name="Lab4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Lab4" />
-      <module name="UIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Proj8.testPositive">
     <configuration name="Proj5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Proj5" />
       <module name="UIAutomation" />
@@ -142,13 +123,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Proj8.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Proj8" />
+      <option name="METHOD_NAME" value="testPositive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Proj8.testPositive" />
         <item itemvalue="TestNG.Proj7" />
         <item itemvalue="TestNG.Proj6" />
         <item itemvalue="TestNG.Proj6.testPositive" />
         <item itemvalue="Application.Proj5" />
-        <item itemvalue="Application.Lab4" />
       </list>
     </recent_temporary>
   </component>
