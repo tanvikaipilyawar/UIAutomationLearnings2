@@ -2,22 +2,17 @@ package org.example;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.PageLoadStrategy;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.util.List;
-
-
-@Test(groups = "QA")
-public class Proj8 {
-
-
+public class Proj11 {
     EdgeDriver driver;
     @BeforeTest
     public void openBrowser(){
@@ -32,19 +27,16 @@ public class Proj8 {
     @Description("descrption")
     public void testPositive() throws InterruptedException {
         driver.manage().window().maximize();
-        String URL = "https://www.amcharts.com/svg-maps/?map=india";
+        String URL = "https://www.spicejet.com/";
         driver.get(URL);
         driver.manage().window().maximize();
 
-        List<WebElement> states = driver.findElements(By.xpath("//*[name()='svg']/*[name()='g']/*[name()='g']/*[name()='g']/*[name()='path']"));
+        WebElement Del = driver.findElement(By.xpath("//div[data-testid=\"search-source-code\"]"));
 
-        for(WebElement state:states){
-            System.out.println(state.getAttribute("aria-label"));
-            if(state.getAttribute("aria-label").contains("Tripura")){
-                state.click();
-            }
-        }
-        Thread.sleep(3000);
+        Actions actions = new Actions(driver);
+        actions.moveToElement(Del).click().build().perform();
+        actions.moveToElement(Del).click().sendKeys("Del").build().perform();
+
 
     }
 
@@ -54,5 +46,7 @@ public class Proj8 {
         driver.quit();
     }
 
-}
 
+
+    ////div[contains(@data-testid,'autocomplete-dropdown')]/div/div[contains(text(),'DEL')]
+}

@@ -3,19 +3,20 @@ package org.example;
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.PageLoadStrategy;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.util.List;
-
-
 @Test(groups = "QA")
-public class Proj8 {
+
+public class lab5 {
+
+
 
 
     EdgeDriver driver;
@@ -30,29 +31,42 @@ public class Proj8 {
 
     @Test(groups = "QA")
     @Description("descrption")
-    public void testPositive() throws InterruptedException {
+    public void testPositive() {
         driver.manage().window().maximize();
-        String URL = "https://www.amcharts.com/svg-maps/?map=india";
+        String URL = "https://www.makemytrip.com/";
         driver.get(URL);
         driver.manage().window().maximize();
 
-        List<WebElement> states = driver.findElements(By.xpath("//*[name()='svg']/*[name()='g']/*[name()='g']/*[name()='g']/*[name()='path']"));
 
-        for(WebElement state:states){
-            System.out.println(state.getAttribute("aria-label"));
-            if(state.getAttribute("aria-label").contains("Tripura")){
-                state.click();
-            }
+       // Thread.sleep(4000);
+
+           WebElement fromcity = driver.findElement(By.id("fromCity"));
+
+        Actions actions = new Actions(driver);
+        actions.moveToElement(fromcity).click().sendKeys("New Delhi").build().perform();
+
+        List<WebElement> list = driver.findElements(By.xpath("//ul[class=\"react-autosuggest__suggestions-list\"]"));
+
+        for(WebElement e :list){
+           if( e.getText().contains("New Delhi")) {
+               e.click();
+               break;
+           }
+
         }
-        Thread.sleep(3000);
+
+        //svg- scalable vector graphics
+        //svg, circle,polygon, path
 
     }
 
-
     @AfterTest
-    public void closeBrowser(){
+    public void closeBrowser() throws InterruptedException {
+        Thread.sleep(3000);
         driver.quit();
     }
 
 }
+
+
 
