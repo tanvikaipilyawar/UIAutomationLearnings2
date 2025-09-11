@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c63dad4-4ec2-4f6c-b1b0-2d9a130a7058" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DragAndDrop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MouseActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Proj12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Proj13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Proj14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Uploadfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WindowHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/toupload.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Proj8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Proj8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Proj12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Proj12.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +55,8 @@
     "TestNG.Proj10.executor": "Run",
     "TestNG.Proj11.executor": "Run",
     "TestNG.Proj11.testPositive.executor": "Run",
+    "TestNG.Proj12.executor": "Run",
+    "TestNG.Proj12.testPositive.executor": "Run",
     "TestNG.Proj2.executor": "Run",
     "TestNG.Proj2.testloginPositive.executor": "Run",
     "TestNG.Proj3.executor": "Run",
@@ -79,7 +72,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab3">
+  <component name="RunManager" selected="TestNG.Proj12.testPositive">
     <configuration name="Lab3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Lab3" />
       <module name="UIAutomation" />
@@ -119,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DragAndDrop" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Proj12" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -128,7 +121,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DragAndDrop" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Proj12" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -136,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowHandling" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Proj12.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -145,8 +138,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WindowHandling" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Proj12" />
+      <option name="METHOD_NAME" value="testPositive" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -155,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Proj12.testPositive" />
+        <item itemvalue="TestNG.Proj12" />
         <item itemvalue="Application.Lab3" />
         <item itemvalue="Application.Proj14" />
         <item itemvalue="Application.Proj13" />
-        <item itemvalue="TestNG.WindowHandling" />
-        <item itemvalue="TestNG.DragAndDrop" />
       </list>
     </recent_temporary>
   </component>
