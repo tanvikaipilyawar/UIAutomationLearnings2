@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c63dad4-4ec2-4f6c-b1b0-2d9a130a7058" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/xpath/lab1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Proj12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Proj12.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,7 @@
     "Application.Proj4.executor": "Run",
     "Application.Proj5.executor": "Run",
     "Application.Proj9.executor": "Run",
+    "Application.lab1.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -72,22 +73,9 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Proj12.testPositive">
+  <component name="RunManager" selected="Application.lab1">
     <configuration name="Lab3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Lab3" />
-      <module name="UIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Proj13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Proj13" />
       <module name="UIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -105,6 +93,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.xpath.lab1" />
+      <module name="UIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lab1" />
         <item itemvalue="TestNG.Proj12.testPositive" />
         <item itemvalue="TestNG.Proj12" />
         <item itemvalue="Application.Lab3" />
         <item itemvalue="Application.Proj14" />
-        <item itemvalue="Application.Proj13" />
       </list>
     </recent_temporary>
   </component>
